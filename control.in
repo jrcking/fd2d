@@ -1,0 +1,26 @@
+!! This is the control file for FD2D
+
+!! Domain sizes (Lx, Ly)
+1.0d0 1.0d0
+
+!! Grid sizes (nx, ny)
+128 128
+
+!! Prandtl number
+1.0d0
+
+!! Rayleigh number 
+1.0d5
+
+!! Start and end times
+0.0d0 100.0d0
+
+!! Output period (dt_out)
+0.1d0
+
+!! Shear-thinning exponent (used for power law)
+1.0d0
+
+!! Carreau coefficients (lambda,index,visc_inf)
+0.0d0 1.0d0 1.0d0
+
