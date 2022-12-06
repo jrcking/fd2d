@@ -33,6 +33,7 @@ contains
      open(unit=192,file='data_out/statistics/dt.out')
      open(unit=195,file='data_out/statistics/ke.out')  
      open(unit=196,file='data_out/statistics/meantemp.out')
+     open(unit=197,file='data_out/statistics/nusselt.out')
   
      !! Profiling:
      cputimecheck = zero

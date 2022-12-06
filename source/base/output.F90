@@ -99,9 +99,26 @@ contains
      
      !! Check the mean temperature
      call check_temp
+     
+     !! Evaluate the Nusselt number
+     call calc_nusselt
 
      return
-  end subroutine statistics  
+  end subroutine statistics 
+!! ------------------------------------------------------------------------------------------------  
+  subroutine calc_nusselt
+     !! Placeholder routine for Nusselt calculation
+     integer(ikind) :: i,j
+     real(rkind) :: nusselt
+       
+    
+
+!     write(197,*) time,nusselt           !!! writing to unit 197 will write to the file 'data_out/statistics/nusselt.out'
+!     flush(197)
+     
+     
+     return
+  end subroutine calc_nusselt    
 !! ------------------------------------------------------------------------------------------------  
   subroutine check_ke
      !! Output the L2 of velocity over the domain
